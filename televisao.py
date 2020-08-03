@@ -11,13 +11,13 @@ class Televisao:
             self.ligada = True
 
     def aumenta_canal(self):
-        if self.ligada:
-            self.canal += 1
+        if self.ligada:      # verifica se esta ligada
+            self.canal += 1  # aumenta 1 canal
 
     
     def diminui_canal(self):
         if self.ligada:
-            self.canal -= 1
+            self.canal -= 1  # diminui 1 canal
 
 
 
