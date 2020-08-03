@@ -21,22 +21,22 @@ class Televisao:
 
 
 
+if __name__ == '__main__':
+    televisao = Televisao()
+    print('Televisao está ligada: {}'.format(televisao.ligada))
 
-televisao = Televisao()
-print('Televisao está ligada: {}'.format(televisao.ligada))
+    televisao.power()
+    print('Televisao está ligada: {}'.format(televisao.ligada))
 
-televisao.power()
-print('Televisao está ligada: {}'.format(televisao.ligada))
+    televisao.power()
+    print('Televisao está ligada: {}'.format(televisao.ligada))
+    print('Canal: {}'.format(televisao.canal))
+    televisao.power()
+    print('Televisao está ligada: {}'.format(televisao.ligada))
+    televisao.aumenta_canal()
+    televisao.aumenta_canal()
 
-televisao.power()
-print('Televisao está ligada: {}'.format(televisao.ligada))
-print('Canal: {}'.format(televisao.canal))
-televisao.power()
-print('Televisao está ligada: {}'.format(televisao.ligada))
-televisao.aumenta_canal()
-televisao.aumenta_canal()
+    print('Canal: {}'.format(televisao.canal))
 
-print('Canal: {}'.format(televisao.canal))
-
-televisao.diminui_canal() 
-print('Canal: {}'.format(televisao.canal))
+    televisao.diminui_canal() 
+    print('Canal: {}'.format(televisao.canal))

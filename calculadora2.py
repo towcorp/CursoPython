@@ -37,9 +37,9 @@ class Calculadora:
 calculadora = Calculadora()  # passsando os valores para a classe 
 
 
-
-print(calculadora.soma(10, 2))    # seleciona o parametro dentro da classe e coloca os valores
-print(calculadora.subt(5, 3))
-print(calculadora.divisao(100, 2))
-print(calculadora.multip(10, 5))
+if __name__ == '__main__':  # se for chamado pelo proprio aruquivo executa se não for não executa
+    print(calculadora.soma(10, 2))    # seleciona o parametro dentro da classe e coloca os valores
+    print(calculadora.subt(5, 3))
+    print(calculadora.divisao(100, 2))
+    print(calculadora.multip(10, 5))
 

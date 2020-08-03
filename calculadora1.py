@@ -2,6 +2,7 @@
 # metodo é tudo que não retorna
 # definicão 'def' método
 
+"""
 def soma(a, b):
     return a + b
 
@@ -13,7 +14,7 @@ def multip (a, b):
 
 def divisao (a, b):
     return a / b
-
+"""
 # transformar todos metodos 'def' em classes
 
 # Class sempre comeca com maiuscula
@@ -35,11 +36,12 @@ class Calculadora:
         return self.a / self.b
 
 
-calculadora = Calculadora(10, 2)  # passsando os valores para a classe 
+if __name__ == '__main__':
+    calculadora = Calculadora(10, 2)  # passsando os valores para a classe 
 
-print(calculadora.a) # mostra o valor de 'a'
+    print(calculadora.a) # mostra o valor de 'a'
 
-print(calculadora.soma())    # seleciona o parametro dentro da classe
-print(calculadora.subt())
-print(calculadora.multip())
-print(calculadora.divisao())
+    print(calculadora.soma())    # seleciona o parametro dentro da classe
+    print(calculadora.subt())
+    print(calculadora.multip())
+    print(calculadora.divisao())
