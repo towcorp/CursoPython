@@ -18,4 +18,5 @@ if __name__ == '__main__':
 
     print('Total de letras por palacras na lista: {}'.format(total_letras))
 
-    print(test())
+    print(test())   # chamando a classe test
+
